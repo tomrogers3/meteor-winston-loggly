@@ -34,7 +34,7 @@ var options = {
   "handleExceptions": true
 };
 
-Winston.add(winston.transports.Loggly, options);
+Winston.add(Winston.transports.Loggly, options);
 Winston.info('Added winston loggly transport');
 ```
 
