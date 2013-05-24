@@ -8,7 +8,5 @@ Npm.depends({
 });
 
 Package.on_use(function (api, where) {
-  api.use('winston', 'server');
-
   api.add_files('winston-loggly.js', 'server');
 });

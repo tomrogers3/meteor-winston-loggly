@@ -16,7 +16,7 @@ Winston
 And loggly transport is exposed as:
 
 ``` js
-Winston.transports.Loggly
+Winston_Loggly
 ```
 
 so it can be used as follows:
@@ -34,7 +34,7 @@ var options = {
   "handleExceptions": true
 };
 
-Winston.add(Winston.transports.Loggly, options);
+Winston.add(Winston_Loggly, options);
 Winston.info('Added winston loggly transport');
 ```
 
