@@ -9,10 +9,33 @@ mrt add winston-loggly
 
 Winston is exposed as:
 
+``` js
 Winston
+```
 
 And loggly transport is exposed as:
 
+``` js
 Winston.transports.Loggly
+```
+
+so it can be used as follows:
+
+``` js
+var options = {
+  "level": "info",
+  "subdomain": "<loggly subdomain>",
+  "auth": {
+    "username": "<loggly username>",
+    "password": "<loggly password>"
+  },
+  "inputToken":"<loggly input token>",
+  "json": true,
+  "handleExceptions": true
+};
+
+Winston.add(winston.transports.Loggly, options);
+Winston.info('Added winston loggly transport');
+```
 
 See winston-loggly [documentation](https://github.com/indexzero/winston-loggly) for more details.
