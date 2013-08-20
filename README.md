@@ -39,3 +39,9 @@ Winston.info('Added winston loggly transport');
 ```
 
 See winston-loggly [documentation](https://github.com/indexzero/winston-loggly) for more details.
+
+Other related projects:
+
+[meteor-winston] (https://github.com/tomrogers3/meteor-winston)
+[meteor-airbrake] (https://github.com/tomrogers3/meteor-winston-airbrake)
+
