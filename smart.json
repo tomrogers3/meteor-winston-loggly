@@ -3,7 +3,7 @@
   "description": "Loggly transport for Winston logging library, packaged for Meteor",
   "homepage": "https://github.com/tomrogers3/meteor-winston-loggly",
   "author": "Tom Rogers <tomrogers3@gmail.com>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/tomrogers3/meteor-winston-loggly.git",
   "packages": {
   }
