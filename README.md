@@ -43,5 +43,5 @@ See winston-loggly [documentation](https://github.com/indexzero/winston-loggly) 
 Other related projects:
 
 [meteor-winston] (https://github.com/tomrogers3/meteor-winston)
-[meteor-airbrake] (https://github.com/tomrogers3/meteor-winston-airbrake)
+[meteor-winston-airbrake] (https://github.com/tomrogers3/meteor-winston-airbrake)
 
